@@ -10,7 +10,7 @@ Desenvolvimento da parte prática, com a detecção de faces de um vídeo utiliz
 
 O haar cascade é um modelo utilizado para a detecção de objetos, treinado com várias imagens positivas (com os objetos procurados) e negativas (sem os objetos). Nesse caso, o haar que está sendo utilizado nesse projeto foi treinado com diferentes rostos. Para inferir se uma imagem possui rostos ou não, ele analisa a imagem passando os pixels por "quadradinhos", que por meio de uma convolução devolvem certas características, identificando assim as faces.
 
-![Quadradinhos do Haar Cascade](/prova-pratica2-modulo6/static/image.png)
+![Quadradinhos do Haar Cascade](/static/image.png)
 
 
 
