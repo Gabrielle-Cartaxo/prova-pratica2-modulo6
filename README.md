@@ -53,6 +53,8 @@ Logo, é um trade-off a se considerar, tendo mais aplicabilidade em situações 
 
 **A solução apresentada ou qualquer outra das que foram listadas na questão 2.2. tem a capacidade de considerar variações de um frame para outro (e.g. perceber que em um frame a pessoa está feliz e isso influenciar na detecção do próximo frame)? Se não, quais alterações poderiam ser feitas para que isso seja possível?**
 
+Eu diria que apenas as redes neurais fazem isso, já que ajustar os pesos conforme o erro a fim de melhorar a predição é a base de como funicionam os perceptrons, que compõem essas redes, tal qual LNN e CNN. Porém, para o contexto de imagens, diria que o modelo que melhor emprega isso é o CNN.
+
 
 ## Como executar a atividade da prova!
 
@@ -104,6 +106,8 @@ python app.py
 Assim, pode acessar seu navegador no endereço que aparecer no terminal, que costuma seguir a estrutura `http://{localhost}:8000`, substituindo o localhost pelo seu ip.
 Só apertar cntrl e clicar no link que irá te redirecionar para o site.
 
+
+Para visualizar um vídeo desse sistema funcionando, pode acessar [esse link!](https://www.youtube.com/watch?v=t1PB-BVdVLs)
 
 
 
